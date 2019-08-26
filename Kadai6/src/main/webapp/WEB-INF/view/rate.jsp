@@ -22,7 +22,7 @@
 		<h2>占い結果の割合表示</h2>
 
 	<!-- 過去半年全体のおみくじ結果のあ割合表示 -->
-	<table class="contain">
+	<table class="contain"border="1">
 		<caption>半年間の運勢結果の割合</caption>
 		<tr>
 			<th>運勢</th>
