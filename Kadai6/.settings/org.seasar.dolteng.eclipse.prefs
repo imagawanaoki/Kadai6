@@ -1,0 +1,8 @@
+DaoType=S2JDBC
+DefaultResourcePath=/Kadai6/src/main/resources
+DefaultRootPackage=kadai6
+DefaultSrcPath=/Kadai6/src/main/java
+ServletPath=Kadai6
+ViewType=SA-Struts
+WebContentsRoot=src/main/webapp
+eclipse.preferences.version=1

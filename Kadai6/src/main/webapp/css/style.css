@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	width: 100%
+}
+
+body {
+	background-size: 100% 100%;
+}
+
+table {
+	width: 60%;
+	border-spacing: 0;
+}
+
+table th {
+	padding: 13px 20px;
+	background-color: #fb5144;
+	color: #feffff;
+	border-bottom: #5e5e5e;
+}
+
+table td {
+	border-bottom: solid 2px #929292;
+	text-align: center;
+	padding: 10px 30px;
+
+}
+
+center {
+	text-align: center;
+}
+
+.container {
+	max-width: 75%;
+	margin: 40px 0px 20px 600px;
+}
+
+.contain {
+	max-width: 14%;
+	margin: 13% 0% 0% 25%;
+	display: inline-table;
+}
+
+.table-scroll {
+	overflow-x: auto;
+}
+
+.font {
+	font-size: 20px;
+	margin: 10px auto;
+}
+
+.rate {
+	max-width: 60%;
+	margin: 5% 0% 0% 0%;
+}
+
+.size {
+	max-width: 50%;
+	margin: 15% 0% 0% 0%;
+	writing-mode: vertical-rl;
+}
+
+h2 {
+	max-width: 35%;
+	font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+}
+
+h3 {
+	font-size: 150%;
+	font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+}
+
+.padding {
+	position: relative;
+	padding: 15% auto;
+}
+
+.margin {
+	margin: 13% 0% 0% 0%;
+}
+
+.sample2a {
+	background: linear-gradient(transparent 50%, #ffa64d 65%);
+	/* ラインマーカーを付ける  */
+}
+
+.outline {
+	display: inline-block;
+	color: #000000; /* 文字の色 */
+	font-size: 100%; /* 文字のサイズ */
+	letter-spacing: 5%; /* 文字間 */
+	text-shadow: 2px 2px 1px #ffff4d, -2px 2px 1px #ffff4d, 2px -2px 1px
+		#ffff4d, -2px -2px 1px #ffff4d, 2px 0px 1px #ffff4d, 0px 2px 1px
+		#ffff4d, -2px 0px 1px #ffff4d, 0px -2px 1px #ffff4d; /* 文字の影 */
+}
+
+.colar {
+	background-color: #FFFFCC;
+}
+
+.font-size {
+	font-size: 200%;
+	font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+}
+.button{
+	margin: 0% 0% 0% 48%;
+}
+.a{
+	margin: 3% 0% 0% 0%
+}
