@@ -14,7 +14,7 @@
 <title>- Path -</title>
 </head>
 <body class="colar"
-	style="background-image: url(${pageContext.request.contextPath}/img/flame.png);
+style="background-image: url(${pageContext.request.contextPath}/img/kado.png);
 			background-repeat: no-repeat;">
 
 				<!-- ヘッダーの表示 -->

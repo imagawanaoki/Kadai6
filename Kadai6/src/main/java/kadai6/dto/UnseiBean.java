@@ -1,4 +1,7 @@
 package kadai6.dto;
+
+import java.sql.Date;
+
 /**
  * 運勢テーブルのDTO
  * 各フィールドはsetter/getterメソッドを持つ
@@ -13,15 +16,15 @@ public class UnseiBean {
 	private Integer unsei_id;
 
 	//占い日
-	private Integer uranai_date;
+	private Date uranai_date;
 
 
 
-	public Integer getUranai_date() {
+	public Date getUranai_date() {
 		return uranai_date;
 	}
 
-	public void setUranai_date(Integer uranai_date) {
+	public void setUranai_date(Date uranai_date) {
 		this.uranai_date = uranai_date;
 	}
 

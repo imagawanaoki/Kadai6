@@ -15,14 +15,14 @@
 <title>- AllBirthaday -</title>
 </head>
 <body class="colar"
-	style="background-image: url(${pageContext.request.contextPath}/img/flame.png);
+style="background-image: url(${pageContext.request.contextPath}/img/kado.png);
 			background-repeat: no-repeat;">
 
-
+	<div align="center">
 		<h2>占い結果の割合表示</h2>
-
+	</div>
 	<!-- 過去半年全体のおみくじ結果のあ割合表示 -->
-	<table class="contain"border="1">
+	<table class="contain" border="1">
 		<caption>半年間の運勢結果の割合</caption>
 		<tr>
 			<th>運勢</th>

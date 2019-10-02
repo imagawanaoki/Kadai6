@@ -7,6 +7,7 @@ html, body {
 
 body {
 	background-size: 100% 100%;
+
 }
 
 table {
@@ -16,7 +17,7 @@ table {
 
 table th {
 	padding: 13px 20px;
-	background-color: #fb5144;
+	background-color: #ff2600;
 	color: #feffff;
 	border-bottom: #5e5e5e;
 }
@@ -28,7 +29,7 @@ table td {
 
 }
 
-center {
+.center {
 	text-align: center;
 }
 
@@ -43,13 +44,12 @@ center {
 	display: inline-table;
 }
 
-.table-scroll {
-	overflow-x: auto;
-}
+
 
 .font {
-	font-size: 20px;
-	margin: 10px auto;
+	max-width: 35%;
+	margin: 0% 0% 30% 0%;
+	font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
 }
 
 .rate {
@@ -59,7 +59,7 @@ center {
 
 .size {
 	max-width: 50%;
-	margin: 5% 0% 0% 0%;
+	margin: 4% 0% 0% 0%;
 }
 
 h2 {
@@ -78,7 +78,7 @@ h3 {
 }
 
 .margin {
-	margin: 13% 0% 0% 0%;
+	margin: 10% 0% 0% 0%;
 }
 
 .sample2a {
@@ -86,15 +86,6 @@ h3 {
 	/* ラインマーカーを付ける  */
 }
 
-.outline {
-	display: inline-block;
-	color: #000000; /* 文字の色 */
-	font-size: 100%; /* 文字のサイズ */
-	letter-spacing: 5%; /* 文字間 */
-	text-shadow: 2px 2px 1px #ffff4d, -2px 2px 1px #ffff4d, 2px -2px 1px
-		#ffff4d, -2px -2px 1px #ffff4d, 2px 0px 1px #ffff4d, 0px 2px 1px
-		#ffff4d, -2px 0px 1px #ffff4d, 0px -2px 1px #ffff4d; /* 文字の影 */
-}
 
 .colar {
 	background-color: #FFFFCC;
@@ -102,11 +93,45 @@ h3 {
 
 .font-size {
 	font-size: 200%;
-	font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
+	font-family: 'Kaiti SC',sans-serif;
 }
 .button{
 	margin: 0% 0% 0% 48%;
 }
 .a{
 	margin: 3% 0% 0% 0%
+
+}
+.b{
+	margin: 3% 0% 0% 0%;
+	height: 50%;
+}
+.c{
+	margin: 15% 0% 0% 0%;
+}
+.d{
+margin: 25% 0% 0% 0%;
+}
+.e{
+	margin: 30% 0% 0% %;
+
+}
+.sample-box {
+    position: relative;
+    }
+    .you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: absolute;
+	left: 20%;
+
+}
+.meter{
+	top: 23%;
+}
+.line{
+	display: inline-block;
 }
